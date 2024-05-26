@@ -11,8 +11,6 @@ function App() {
   return (
     <>
       <Navbar />
-      <Card />
-      <Sidebar />
       <Blog />
     </>
   )
