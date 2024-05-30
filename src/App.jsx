@@ -1,5 +1,3 @@
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 import Navbar from './component/Navbar/Navbar'
 import Card from './component/Card/Card';
@@ -11,7 +9,9 @@ function App() {
   return (
     <>
       <Navbar />
-      <Blog />
+      <div className='md:flex max-w-6xl mx-auto'>
+        <Blog />
+      </div>
     </>
   )
 }

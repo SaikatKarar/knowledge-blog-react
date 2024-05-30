@@ -31,7 +31,7 @@ function Profile() {
     };
 
     return (
-        <>
+        <div className=''>
             <img
                 ref={imgRef}
                 className="cursor-pointer"
@@ -49,7 +49,7 @@ function Profile() {
                     </ul>
                 </div>
             )}
-        </>
+        </div>
     );
 }
 
